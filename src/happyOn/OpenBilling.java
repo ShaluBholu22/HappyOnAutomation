@@ -67,7 +67,7 @@ public class OpenBilling {
             driver.findElement(By.cssSelector("#couponCodebutton")).click();
 
             // 8. Create bill
-            driver.findElement(By.xpath("//button[normalize-space()='Create Bill']")).click();
+//            driver.findElement(By.xpath("//button[normalize-space()='Create Bill']")).click();
 
         } catch (Exception e) {
             e.printStackTrace();
