@@ -21,10 +21,10 @@ public class BuyMembership {
 
 		WebDriver driver = new FirefoxDriver();
 		
-		driver.get("http://192.168.191.39/happyonbranchwise");
+		driver.get("http://192.168.191.39/happyon");
 		
-		driver.findElement(By.xpath("//input[@placeholder='Email']")).sendKeys("ollie@yopmail.com");
-		driver.findElement(By.cssSelector("input[placeholder='Password']")).sendKeys("Admin@123");
+		driver.findElement(By.xpath("//input[@placeholder='Email']")).sendKeys("superadmin@gmail.com");
+		driver.findElement(By.cssSelector("input[placeholder='Password']")).sendKeys("admin@123");
 		driver.findElement(By.cssSelector("button[class='btn']")).click();
 		
 		driver.findElement(By.xpath("//a[contains(.,'Member Services')]")).click();		
