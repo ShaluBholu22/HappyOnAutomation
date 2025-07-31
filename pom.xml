@@ -46,6 +46,12 @@
 			<version>2.24.3</version>
 			<scope>compile</scope>
 		</dependency>
+		<!-- Maven example -->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>32.1.3-jre</version> <!-- Use the appropriate version -->
+		</dependency>
 	</dependencies>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
